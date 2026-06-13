@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://tranzak.net/",
+  "name": "TranZak",
+  "description": "TranZak is an African fintech platform headquartered in Douala, Cameroon, providing REST APIs for mobile money collections, merchant payments, bulk disbursements, bill payments, and SMS services across sub-Saharan Africa.",
+  "url": "https://tranzak.net/",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://twitter.com/tranzak_fintech",
+    "https://www.linkedin.com/company/tranzaktech",
+    "https://github.com/HolyCorn-Software/tranzak-node"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Developer Support",
+    "url": "https://docs.developer.tranzak.me/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Sub-Saharan Africa"
+  },
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Douala, Cameroon"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "TranZak API Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "TranZak Payment Collections API",
+        "description": "REST API for collecting payments from customers via mobile money (MTN MOMO, Orange Money), QR code in-store payments, and web redirect checkout.",
+        "url": "https://docs.developer.tranzak.me/"
+      },
+      {
+        "@type": "Offer",
+        "name": "TranZak Transfers (Disbursements) API",
+        "description": "REST API for sending funds to Tranzak users, mobile money wallets, and CEMAC bank accounts.",
+        "url": "https://docs.developer.tranzak.me/"
+      },
+      {
+        "@type": "Offer",
+        "name": "TranZak Bulk Payments API",
+        "description": "REST API for sending bulk payments to up to 2,000 recipients in a single request.",
+        "url": "https://docs.developer.tranzak.me/"
+      },
+      {
+        "@type": "Offer",
+        "name": "TranZak SMS API",
+        "description": "REST API for sending marketing bulk SMS messages and OTP/verification codes to up to 500 recipients per call.",
+        "url": "https://docs.developer.tranzak.me/"
+      }
+    ]
+  },
+  "publishingPrinciples": "https://docs.developer.tranzak.me/",
+  "keywords": [
+    "Fintech",
+    "Mobile Money",
+    "Payments",
+    "Africa",
+    "Cameroon",
+    "Disbursements",
+    "SMS",
+    "Bill Payments",
+    "MTN Mobile Money",
+    "Orange Money",
+    "CEMAC"
+  ]
+}
