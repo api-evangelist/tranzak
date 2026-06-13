@@ -1,0 +1,67 @@
+name: TranZak FinOps
+description: Financial operations guidance for managing costs, monitoring usage, and optimizing spending when integrating with the TranZak payment APIs.
+url: https://tranzak.net/pricing
+
+cost_model:
+  type: usage-based
+  primary_costs:
+    - name: Collection Fee
+      rate: 2.5%
+      applies_to: Every successful payment collection (mobile money, bank, card)
+      example: A 10,000 XAF collection costs 250 XAF in fees
+
+    - name: Disbursement Fees
+      rate: Variable
+      applies_to: Outbound transfers to mobile wallets, bank accounts, and Tranzak users
+      source: Partner Pricing Agreement — contact support@tranzak.net
+
+    - name: SMS Marketing
+      rate: Per-message
+      applies_to: Bulk SMS via POST /dn088/v1/sms/api/send-v2
+      note: 1 SMS unit = 160 characters; longer messages billed as multiple units
+
+    - name: OTP SMS
+      rate: Per-message
+      applies_to: OTP/verification SMS via POST /dn088/v1/sms/api/send-otp
+      note: Same per-unit character pricing as marketing SMS
+
+optimization_strategies:
+  - name: Use Bulk Payment Endpoints
+    description: Consolidate multiple disbursements into a single bulk payout request (up to 2,000 recipients) to reduce per-call overhead and simplify reconciliation.
+    endpoints:
+      - POST /xp021/v1/payout/transfer
+      - POST /xp021/v1/payout/transfer-to-mobile-wallet
+      - POST /xp021/v1/payout/transfer-to-bank-account
+
+  - name: Optimize SMS Message Length
+    description: Keep SMS messages at or under 160 characters to avoid multi-unit billing. Use templates stored in the Tranzak SMS portal.
+
+  - name: Monitor via API Activity Endpoints
+    description: Use the API activity endpoints to audit call volume, spot failed transactions, and resend notifications without re-initiating payments.
+    endpoints:
+      - GET /xp021/v1/api-activity/notifications
+      - GET /xp021/v1/api-activity/api-calls
+      - POST /xp021/v1/api-activity/trigger-tpn
+
+  - name: Sandbox Testing
+    description: Use the sandbox environment (sandbox.dsapi.tranzak.me) with SAND_ prefixed keys to validate integrations before incurring production fees.
+
+  - name: Void Failed Requests
+    description: Cancel unpaid or erroneous payment requests promptly using the void/cancel endpoints to avoid holding funds or creating reconciliation issues.
+    endpoints:
+      - POST /xp021/v1/request/cancel
+      - POST /xp021/v1/request/void
+
+monitoring:
+  - Payout account balance: POST /xp021/v1/account/payout-account-details
+  - Collection account balance: POST /xp021/v1/account/collection-account-details
+  - Transaction history: GET /xp021/v1/request/history, GET /xp021/v1/transfer/history
+  - Bulk payment status: GET /xp021/v1/payout/details, GET /xp021/v1/payout/transfers
+  - Webhook events: REQUEST.COMPLETED, TRANSFER.COMPLETED, BULK_PAYMENT.COMPLETED
+
+contact:
+  support_email: support@tranzak.net
+  phone: "+237 233 430 888"
+  whatsapp: "+237 674 460 261"
+  pricing_docs: https://tranzak.net/pricing
+  community: https://community.tranzak.net/

@@ -1,0 +1,60 @@
+name: TranZak API Rate Limits
+description: Rate limit information for the TranZak REST API covering production and sandbox environments. Explicit rate limit quotas are not publicly documented; known constraints are listed below.
+url: https://docs.developer.tranzak.me/
+environments:
+  production:
+    base_url: https://dsapi.tranzak.me
+    notes: Production keys are prefixed with PROD_
+  sandbox:
+    base_url: https://sandbox.dsapi.tranzak.me
+    notes: Sandbox keys are prefixed with SAND_; includes generate-auth-code endpoint for testing
+
+known_constraints:
+  - name: Pagination Limit
+    description: Maximum number of items returned per page in list endpoints (history, transfers, notifications, API calls).
+    limit: 50
+    unit: items per page
+    endpoints:
+      - GET /xp021/v1/request/history
+      - GET /xp021/v1/transfer/history
+      - GET /xp021/v1/payout/history
+      - GET /xp021/v1/payout/transfers
+      - GET /xp021/v1/api-activity/notifications
+      - GET /xp021/v1/api-activity/api-calls
+
+  - name: Bulk Payment Recipients
+    description: Maximum number of recipients in a single bulk payment request.
+    limit: 2000
+    unit: recipients per request
+    endpoints:
+      - POST /xp021/v1/payout/transfer
+      - POST /xp021/v1/payout/transfer-to-mobile-wallet
+      - POST /xp021/v1/payout/transfer-to-bank-account
+
+  - name: SMS Bulk Recipients
+    description: Maximum number of phone numbers in a single SMS send call.
+    limit: 500
+    unit: numbers per call
+    endpoints:
+      - POST /dn088/v1/sms/api/send-v2
+      - POST /dn088/v1/sms/api/send-otp
+
+  - name: SMS Message Length
+    description: Base SMS unit is 160 characters; messages exceeding this are billed as additional units.
+    limit: 160
+    unit: characters per SMS unit
+
+authentication:
+  type: Bearer Token
+  token_endpoint: POST /auth/token
+  required_headers:
+    - Authorization: "Bearer <token>"
+    - X-App-ID: "<application-id>"
+  credentials:
+    - appId: Application identifier from developer portal
+    - appKey: API key (SAND_ prefix for sandbox, PROD_ prefix for production)
+
+notes:
+  - Explicit per-minute or per-hour rate limits are not publicly documented
+  - Contact support@tranzak.net for rate limit increase requests or enterprise quotas
+  - All APIs are linked to an application created in the developer portal at developer.tranzak.me

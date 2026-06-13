@@ -1,0 +1,54 @@
+name: TranZak Plans and Pricing
+description: Pricing and plan information for the TranZak payment platform APIs covering collections, disbursements, and SMS services in Cameroon and Central Africa.
+url: https://tranzak.net/pricing
+plans:
+  - name: Pay-As-You-Go Collections
+    description: Transaction-based fee model for collecting payments via mobile money, bank transfer, or card. No subscription required.
+    type: usage
+    fees:
+      - type: percentage
+        rate: 2.5
+        unit: per transaction
+        applies_to: collections
+    features:
+      - Mobile money collection (MTN MOMO, Orange Money)
+      - Bank transfer collection
+      - QR code in-store payments
+      - Web redirect checkout
+      - Direct mobile wallet charge
+      - Webhook notifications
+    limits:
+      pagination_max: 50 items per page
+      bulk_recipients_max: 2000 per request
+      sms_recipients_max: 500 per call
+
+  - name: Disbursements
+    description: Outbound payment fees for transferring funds to mobile wallets, bank accounts, or internal Tranzak users. Fees defined in Partner Pricing Agreement.
+    type: usage
+    fees:
+      - type: custom
+        note: Refer to Partner Pricing Agreement (PDF) and Partners SLA Fees (Excel) available at tranzak.net/pricing
+    features:
+      - Single transfer to mobile money
+      - Single transfer to bank account
+      - Transfer to Tranzak users
+      - Bulk transfers (up to 2,000 recipients)
+      - File-based bulk upload
+
+  - name: SMS Services
+    description: Marketing and OTP SMS messaging with per-message pricing based on character count.
+    type: usage
+    fees:
+      - type: per-unit
+        unit: per SMS (160 characters = 1 message)
+        note: Messages exceeding 160 characters incur additional per-unit charges
+    features:
+      - Marketing/bulk SMS (up to 500 numbers per call)
+      - OTP/verification SMS
+      - SMS delivery receipts
+
+notes:
+  - Full pricing details are in the Partner Pricing Agreement available at https://tranzak.net/pricing
+  - Transaction limits may apply based on account KYC verification level
+  - Sandbox environment available for testing at no cost
+  - Contact support@tranzak.net or +237 233 430 888 for enterprise pricing

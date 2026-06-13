@@ -1,0 +1,106 @@
+aid: tranzak
+name: TranZak
+description: TranZak is an African fintech platform headquartered in Douala, Cameroon, providing REST APIs for mobile money collections, merchant payments, bulk disbursements, bill payments, and SMS services across sub-Saharan Africa. The platform bridges banked and unbanked populations by supporting MTN Mobile Money, Orange Money, and CEMAC bank networks, with sandbox and production environments, webhook notifications, and support for up to 2,000 recipients in a single bulk payment request.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/tranzak/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Fintech
+  - Mobile Money
+  - Payments
+  - Africa
+  - Cameroon
+  - Disbursements
+  - SMS
+  - Bill Payments
+apis:
+  - name: TranZak Payment Collections API
+    description: REST API for collecting payments from customers via mobile money (MTN MOMO, Orange Money), QR code in-store payments, and web redirect checkout. Supports direct mobile wallet charges, payment request creation, cancellation, voiding, and transaction history.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.developer.tranzak.me/
+    baseURL: https://dsapi.tranzak.me
+    tags:
+      - Payments
+      - Collections
+      - Mobile Money
+      - QR Code
+    properties:
+      - type: Documentation
+        url: https://docs.developer.tranzak.me/
+      - type: Sandbox
+        url: https://sandbox.dsapi.tranzak.me
+
+  - name: TranZak Transfers (Disbursements) API
+    description: REST API for sending funds to Tranzak users, mobile money wallets (MTN MOMO, Orange Money), and CEMAC bank accounts. Supports single transfers, payout account top-ups, and transfer history retrieval.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.developer.tranzak.me/
+    baseURL: https://dsapi.tranzak.me
+    tags:
+      - Disbursements
+      - Transfers
+      - Mobile Money
+      - Bank Transfer
+    properties:
+      - type: Documentation
+        url: https://docs.developer.tranzak.me/
+      - type: Sandbox
+        url: https://sandbox.dsapi.tranzak.me
+
+  - name: TranZak Bulk Payments API
+    description: REST API for sending bulk payments to up to 2,000 recipients in a single request. Supports file-based upload for internal Tranzak users, mobile wallets, and bank accounts, with job status tracking and bulk payment history.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.developer.tranzak.me/
+    baseURL: https://dsapi.tranzak.me
+    tags:
+      - Bulk Payments
+      - Disbursements
+      - Payroll
+    properties:
+      - type: Documentation
+        url: https://docs.developer.tranzak.me/
+      - type: Sandbox
+        url: https://sandbox.dsapi.tranzak.me
+
+  - name: TranZak SMS API
+    description: REST API for sending marketing bulk SMS messages and OTP/verification codes. Supports up to 500 recipients per call with per-character pricing (160 characters per SMS unit).
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.developer.tranzak.me/
+    baseURL: https://dsapi.tranzak.me
+    tags:
+      - SMS
+      - OTP
+      - Messaging
+    properties:
+      - type: Documentation
+        url: https://docs.developer.tranzak.me/
+      - type: Sandbox
+        url: https://sandbox.dsapi.tranzak.me
+
+common:
+  - type: Website
+    url: https://tranzak.net/
+  - type: Documentation
+    url: https://docs.developer.tranzak.me/
+  - type: GitHubOrg
+    url: https://github.com/HolyCorn-Software/tranzak-node
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/tranzaktech
+  - type: Blog
+    url: https://community.tranzak.net/
+  - type: Pricing
+    url: https://tranzak.net/pricing
+  - type: StatusPage
+    url: https://tranzak.net/
+  - type: X
+    url: https://twitter.com/tranzak_fintech
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/tranzak/refs/heads/main/plans/tranzak-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/tranzak/refs/heads/main/rate-limits/tranzak-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/tranzak/refs/heads/main/finops/tranzak-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
