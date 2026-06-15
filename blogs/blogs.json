@@ -3,7 +3,7 @@
   "name": "TranZak",
   "url": "https://community.tranzak.net/",
   "description": "TranZak community blog covering tutorials, guides, and updates for the TranZak fintech platform serving sub-Saharan Africa.",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "feed": "https://community.tranzak.net/posts.rss",
   "posts": [
     {
@@ -28,7 +28,7 @@
       "title": "Comment activer les Approbations sur Tranzak",
       "url": "https://community.tranzak.net/t/comment-activer-les-approbations-sur-tranzak/64#post_1",
       "date": "2026-04-16",
-      "description": "Vous souhaitez ajouter un niveau de contrôle et de validation supplémentaire à vos transactions sur Tranzak?"
+      "description": "Vous souhaitez ajouter un niveau de contr\u00f4le et de validation suppl\u00e9mentaire \u00e0 vos transactions sur Tranzak?"
     },
     {
       "title": "How to enable Approvals on Tranzak",
@@ -37,10 +37,10 @@
       "description": "Do you want to add an extra layer of control and validation to your transactions on Tranzak?"
     },
     {
-      "title": "Comment réinitialiser votre code PIN sur Tranzak",
+      "title": "Comment r\u00e9initialiser votre code PIN sur Tranzak",
       "url": "https://community.tranzak.net/t/comment-reinitialiser-votre-code-pin-sur-tranzak/60#post_1",
       "date": "2026-03-25",
-      "description": "Comment réinitialiser son code PIN sur Tranzak?"
+      "description": "Comment r\u00e9initialiser son code PIN sur Tranzak?"
     },
     {
       "title": "How to reset your PIN on Tranzak",
@@ -76,7 +76,7 @@
       "title": "Comment recharger son compte tranzak",
       "url": "https://community.tranzak.net/t/comment-recharger-son-compte-tranzak/52#post_1",
       "date": "2026-01-20",
-      "description": "Ce tutoriel vous guide étape par étape pour recharger votre compte Tranzak."
+      "description": "Ce tutoriel vous guide \u00e9tape par \u00e9tape pour recharger votre compte Tranzak."
     },
     {
       "title": "How to Add or Edit a Team members role on Tranzak",
@@ -85,16 +85,16 @@
       "description": "This tutorial guides you step by step on how to add and modify team members directly from your Tranzak merchant dashboard."
     },
     {
-      "title": "Comment ajouter ou modifier le rôle d'un membre de l'équipe sur Tranzak",
+      "title": "Comment ajouter ou modifier le r\u00f4le d'un membre de l'\u00e9quipe sur Tranzak",
       "url": "https://community.tranzak.net/t/comment-ajouter-ou-modifier-le-role-dun-membre-de-lequipe-sur-tranzak/50#post_1",
       "date": "2026-01-20",
-      "description": "Ce tutoriel vous guide étape par étape pour ajouter et modifier les membres de votre équipe."
+      "description": "Ce tutoriel vous guide \u00e9tape par \u00e9tape pour ajouter et modifier les membres de votre \u00e9quipe."
     },
     {
-      "title": "Comment télécharger des rapports sur Tranzak",
+      "title": "Comment t\u00e9l\u00e9charger des rapports sur Tranzak",
       "url": "https://community.tranzak.net/t/comment-telecharger-des-rapports-sur-tranzak/45#post_1",
       "date": "2025-10-28",
-      "description": "Ce tutoriel vous guide pas à pas pour télécharger vos rapports de transactions depuis votre tableau de bord Tranzak."
+      "description": "Ce tutoriel vous guide pas \u00e0 pas pour t\u00e9l\u00e9charger vos rapports de transactions depuis votre tableau de bord Tranzak."
     },
     {
       "title": "How to download reports on Tranzak",
@@ -106,7 +106,7 @@
       "title": "Comment effectuer de virements entre comptes Tranzak",
       "url": "https://community.tranzak.net/t/comment-effectuer-de-virements-entre-comptes-tranzak/43#post_1",
       "date": "2025-09-15",
-      "description": "Ce tutoriel vous guide pas à pas pour effectuer des transferts entre comptes Tranzak."
+      "description": "Ce tutoriel vous guide pas \u00e0 pas pour effectuer des transferts entre comptes Tranzak."
     },
     {
       "title": "How to carry out transfers between tranzak accounts",
@@ -115,7 +115,7 @@
       "description": "This tutorial guides you step-by-step on how to perform transfers between Tranzak accounts."
     },
     {
-      "title": "Comment créer les liens de paiement sur Tranzak",
+      "title": "Comment cr\u00e9er les liens de paiement sur Tranzak",
       "url": "https://community.tranzak.net/t/comment-creer-les-liens-de-paiement-sur-tranzak/41#post_1",
       "date": "2025-09-04",
       "description": "Que vous vendiez un produit, un service ou collectiez des dons, le lien de paiement Tranzak est votre meilleur outil."
@@ -127,10 +127,10 @@
       "description": "Master the Art of Payment Collection with Tranzak. Here's a step-by-step tutorial on how to create payment links."
     },
     {
-      "title": "Comment créer une facture sur Tranzak à partir de votre ordinateur",
+      "title": "Comment cr\u00e9er une facture sur Tranzak \u00e0 partir de votre ordinateur",
       "url": "https://community.tranzak.net/t/comment-creer-une-facture-sur-tranzak-a-partir-de-votre-ordinateur/39#post_1",
       "date": "2025-08-28",
-      "description": "Vous voulez créer une facture en quelques secondes? Voici comment créer une facture sur Tranzak."
+      "description": "Vous voulez cr\u00e9er une facture en quelques secondes? Voici comment cr\u00e9er une facture sur Tranzak."
     },
     {
       "title": "How to create an invoice on tranzak dashboard",
@@ -157,10 +157,10 @@
       "description": "Step-by-step guide on how to add and modify team members and enable approval workflows for your Tranzak account."
     },
     {
-      "title": "Comment puis-je effectuer la vérification KYC sur Tranzak",
+      "title": "Comment puis-je effectuer la v\u00e9rification KYC sur Tranzak",
       "url": "https://community.tranzak.net/t/comment-puis-je-effectuer-la-verification-kyc-verification-didentite-sur-tranzak/32#post_1",
       "date": "2024-12-30",
-      "description": "Pour effectuer une vérification KYC / vérification d'identité sur Tranzak."
+      "description": "Pour effectuer une v\u00e9rification KYC / v\u00e9rification d'identit\u00e9 sur Tranzak."
     },
     {
       "title": "Download Tranzak The super App",
@@ -174,5 +174,16 @@
       "date": "2024-06-20",
       "description": "How to pay school fees using Tranzak - follow the steps to pay tuition fees using Tranzak."
     }
-  ]
+  ],
+  "repo": "tranzak",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/tranzaktech",
+      "feed_url": "https://www.linkedin.com/company/tranzaktech",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
