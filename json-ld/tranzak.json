@@ -5,7 +5,7 @@
   "name": "TranZak",
   "description": "TranZak is an African fintech platform headquartered in Douala, Cameroon, providing REST APIs for mobile money collections, merchant payments, bulk disbursements, bill payments, and SMS services across sub-Saharan Africa.",
   "url": "https://tranzak.net/",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://twitter.com/tranzak_fintech",
     "https://www.linkedin.com/company/tranzaktech",
