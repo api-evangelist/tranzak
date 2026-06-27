@@ -1,182 +1,13 @@
 {
-  "aid": "tranzak",
-  "name": "TranZak",
-  "url": "https://community.tranzak.net/",
-  "description": "TranZak community blog covering tutorials, guides, and updates for the TranZak fintech platform serving sub-Saharan Africa.",
-  "fetched": "2026-06-14T20:42:17Z",
-  "feed": "https://community.tranzak.net/posts.rss",
-  "posts": [
-    {
-      "title": "Comment utiliser le portail SMS Tranzak",
-      "url": "https://community.tranzak.net/t/comment-utiliser-le-portail-sms-tranzak/70#post_1",
-      "date": "2026-05-07",
-      "description": "Comment naviguer sur le portail SMS Tranzak"
-    },
-    {
-      "title": "How to navigate the tranzak SMS portal",
-      "url": "https://community.tranzak.net/t/how-to-navigate-the-tranzak-sms-portal/69#post_1",
-      "date": "2026-04-28",
-      "description": "How to navigate the Tranzak SMS portal"
-    },
-    {
-      "title": "How to add a collection account and transfer money between accounts",
-      "url": "https://community.tranzak.net/t/how-to-add-a-collection-account-and-transfer-money-between-accounts/67#post_1",
-      "date": "2026-04-21",
-      "description": "How to add a collection account and transfer money between accounts"
-    },
-    {
-      "title": "Comment activer les Approbations sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-activer-les-approbations-sur-tranzak/64#post_1",
-      "date": "2026-04-16",
-      "description": "Vous souhaitez ajouter un niveau de contr\u00f4le et de validation suppl\u00e9mentaire \u00e0 vos transactions sur Tranzak?"
-    },
-    {
-      "title": "How to enable Approvals on Tranzak",
-      "url": "https://community.tranzak.net/t/how-to-enable-approvals-on-tranzak/63#post_1",
-      "date": "2026-04-16",
-      "description": "Do you want to add an extra layer of control and validation to your transactions on Tranzak?"
-    },
-    {
-      "title": "Comment r\u00e9initialiser votre code PIN sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-reinitialiser-votre-code-pin-sur-tranzak/60#post_1",
-      "date": "2026-03-25",
-      "description": "Comment r\u00e9initialiser son code PIN sur Tranzak?"
-    },
-    {
-      "title": "How to reset your PIN on Tranzak",
-      "url": "https://community.tranzak.net/t/how-to-reset-your-pin-on-tranzak/59#post_1",
-      "date": "2026-03-25",
-      "description": "How to reset your PIN on Tranzak?"
-    },
-    {
-      "title": "How to create SMS OTP Template",
-      "url": "https://community.tranzak.net/t/how-to-create-sms-otp-template/58#post_1",
-      "date": "2026-03-22",
-      "description": "Before using the SMS API for sending OTP / Verification messages, you need to submit a template."
-    },
-    {
-      "title": "Comment ajouter des moyens de paiement sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-ajouter-des-moyens-de-paiement-sur-tranzak/55#post_1",
-      "date": "2026-03-04",
-      "description": "Comment ajouter des moyens de paiement sur Tranzak?"
-    },
-    {
-      "title": "How to Add Payment Methods on Tranzak",
-      "url": "https://community.tranzak.net/t/how-to-add-payment-methods-on-tranzak/54#post_1",
-      "date": "2026-03-04",
-      "description": "Do you want to integrate multiple payment methods (MTN, Orange Money) into your Tranzak account?"
-    },
-    {
-      "title": "How to top-up your tranzak account",
-      "url": "https://community.tranzak.net/t/how-to-top-up-your-tranzak-account/53#post_1",
-      "date": "2026-01-20",
-      "description": "This tutorial guides you step by step on how to top up your Tranzak account easily."
-    },
-    {
-      "title": "Comment recharger son compte tranzak",
-      "url": "https://community.tranzak.net/t/comment-recharger-son-compte-tranzak/52#post_1",
-      "date": "2026-01-20",
-      "description": "Ce tutoriel vous guide \u00e9tape par \u00e9tape pour recharger votre compte Tranzak."
-    },
-    {
-      "title": "How to Add or Edit a Team members role on Tranzak",
-      "url": "https://community.tranzak.net/t/how-to-add-or-edit-a-team-members-role-on-tranzak/51#post_1",
-      "date": "2026-01-20",
-      "description": "This tutorial guides you step by step on how to add and modify team members directly from your Tranzak merchant dashboard."
-    },
-    {
-      "title": "Comment ajouter ou modifier le r\u00f4le d'un membre de l'\u00e9quipe sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-ajouter-ou-modifier-le-role-dun-membre-de-lequipe-sur-tranzak/50#post_1",
-      "date": "2026-01-20",
-      "description": "Ce tutoriel vous guide \u00e9tape par \u00e9tape pour ajouter et modifier les membres de votre \u00e9quipe."
-    },
-    {
-      "title": "Comment t\u00e9l\u00e9charger des rapports sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-telecharger-des-rapports-sur-tranzak/45#post_1",
-      "date": "2025-10-28",
-      "description": "Ce tutoriel vous guide pas \u00e0 pas pour t\u00e9l\u00e9charger vos rapports de transactions depuis votre tableau de bord Tranzak."
-    },
-    {
-      "title": "How to download reports on Tranzak",
-      "url": "https://community.tranzak.net/t/how-to-download-reports-on-tranzak/44#post_1",
-      "date": "2025-10-28",
-      "description": "This tutorial guides you step by step on how to download your transaction reports directly from your Tranzak dashboard."
-    },
-    {
-      "title": "Comment effectuer de virements entre comptes Tranzak",
-      "url": "https://community.tranzak.net/t/comment-effectuer-de-virements-entre-comptes-tranzak/43#post_1",
-      "date": "2025-09-15",
-      "description": "Ce tutoriel vous guide pas \u00e0 pas pour effectuer des transferts entre comptes Tranzak."
-    },
-    {
-      "title": "How to carry out transfers between tranzak accounts",
-      "url": "https://community.tranzak.net/t/how-to-carry-out-transfers-between-tranzak-accounts/42#post_1",
-      "date": "2025-09-15",
-      "description": "This tutorial guides you step-by-step on how to perform transfers between Tranzak accounts."
-    },
-    {
-      "title": "Comment cr\u00e9er les liens de paiement sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-creer-les-liens-de-paiement-sur-tranzak/41#post_1",
-      "date": "2025-09-04",
-      "description": "Que vous vendiez un produit, un service ou collectiez des dons, le lien de paiement Tranzak est votre meilleur outil."
-    },
-    {
-      "title": "How to create payment links using Tranzak Dashboard",
-      "url": "https://community.tranzak.net/t/how-to-create-payment-links-using-tranzak-dashboard/40#post_1",
-      "date": "2025-09-04",
-      "description": "Master the Art of Payment Collection with Tranzak. Here's a step-by-step tutorial on how to create payment links."
-    },
-    {
-      "title": "Comment cr\u00e9er une facture sur Tranzak \u00e0 partir de votre ordinateur",
-      "url": "https://community.tranzak.net/t/comment-creer-une-facture-sur-tranzak-a-partir-de-votre-ordinateur/39#post_1",
-      "date": "2025-08-28",
-      "description": "Vous voulez cr\u00e9er une facture en quelques secondes? Voici comment cr\u00e9er une facture sur Tranzak."
-    },
-    {
-      "title": "How to create an invoice on tranzak dashboard",
-      "url": "https://community.tranzak.net/t/how-to-create-an-invoice-on-tranzak-dashboard/38#post_1",
-      "date": "2025-08-26",
-      "description": "Want to create an invoice in seconds? Here's a quick tutorial on how to generate an invoice on Tranzak dashboard."
-    },
-    {
-      "title": "Comment configurer le filtrage des adresses IP pour les paiements",
-      "url": "https://community.tranzak.net/t/comment-configurer-le-filtrage-des-adresses-ip-pour-les-paiements/37#post_1",
-      "date": "2025-08-25",
-      "description": "Comment configurer le filtrage des adresses IP pour les paiements sur Tranzak."
-    },
-    {
-      "title": "How to set up IP address filtering for payouts",
-      "url": "https://community.tranzak.net/t/how-to-set-up-ip-address-filtering-for-payouts/36#post_1",
-      "date": "2025-08-24",
-      "description": "Login into your account on the Tranzak business portal and set up IP address filtering for payouts."
-    },
-    {
-      "title": "How to add or edit team members and enable approval for your Tranzak account",
-      "url": "https://community.tranzak.net/t/how-to-add-or-edit-team-members-and-enable-approval-for-your-tranzak-account-comment-ajouter-ou-modifier-des-membres-de-lequipe-et-activer-la-validation-pour-votre-compte-tranzak/34#post_1",
-      "date": "2025-07-23",
-      "description": "Step-by-step guide on how to add and modify team members and enable approval workflows for your Tranzak account."
-    },
-    {
-      "title": "Comment puis-je effectuer la v\u00e9rification KYC sur Tranzak",
-      "url": "https://community.tranzak.net/t/comment-puis-je-effectuer-la-verification-kyc-verification-didentite-sur-tranzak/32#post_1",
-      "date": "2024-12-30",
-      "description": "Pour effectuer une v\u00e9rification KYC / v\u00e9rification d'identit\u00e9 sur Tranzak."
-    },
-    {
-      "title": "Download Tranzak The super App",
-      "url": "https://community.tranzak.net/t/download-tranzak-the-super-app/28#post_1",
-      "date": "2024-07-15",
-      "description": "Download the Tranzak app now! Available on all platforms, Tranzak offers a complete solution for payments."
-    },
-    {
-      "title": "How to pay tuition on tranzak",
-      "url": "https://community.tranzak.net/t/how-to-pay-tuition-on-tranzak/27#post_1",
-      "date": "2024-06-20",
-      "description": "How to pay school fees using Tranzak - follow the steps to pay tuition fees using Tranzak."
-    }
-  ],
   "repo": "tranzak",
   "feeds": [
+    {
+      "source": "https://community.tranzak.net/posts.rss",
+      "feed_url": "https://community.tranzak.net/posts.rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/company/tranzaktech",
       "feed_url": "https://www.linkedin.com/company/tranzaktech",
@@ -185,5 +16,6 @@
       "method": "none"
     }
   ],
+  "fetched": "2026-06-27T12:03:07Z",
   "post_count": 0
 }
