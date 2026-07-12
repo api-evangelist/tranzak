@@ -1,0 +1,30 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: tranzak.net
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Sep  2 00:17:11 2026 GMT
+  hsts: false
+- host: docs.developer.tranzak.me
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 11 01:09:35 2026 GMT
+  hsts: false
+- host: dsapi.tranzak.me
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Sep  2 00:17:11 2026 GMT
+  hsts: null
+domains:
+- domain: tranzak.net
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
+- domain: tranzak.me
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

@@ -79,6 +79,8 @@ apis:
         url: https://sandbox.dsapi.tranzak.me
 
 common:
+  - type: DomainSecurity
+    url: security/tranzak-domain-security.yml
   - type: Website
     url: https://tranzak.net/
   - type: Documentation
