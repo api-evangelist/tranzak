@@ -35,6 +35,11 @@ apis:
     baseURL: https://dsapi.tranzak.me
     tags:
       - Payments
+      - Collection
+      - Mobile Money
+      - QR Code
+    tags_raw:
+      - Payments
       - Collections
       - Mobile Money
       - QR Code
