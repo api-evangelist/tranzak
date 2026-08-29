@@ -1,6 +1,17 @@
 aid: tranzak
 name: TranZak
 description: TranZak is an African fintech platform headquartered in Douala, Cameroon, providing REST APIs for mobile money collections, merchant payments, bulk disbursements, bill payments, and SMS services across sub-Saharan Africa. The platform bridges banked and unbanked populations by supporting MTN Mobile Money, Orange Money, and CEMAC bank networks, with sandbox and production environments, webhook notifications, and support for up to 2,000 recipients in a single bulk payment request.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
