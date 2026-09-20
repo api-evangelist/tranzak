@@ -9,11 +9,11 @@
       "source": "https://community.tranzak.net/posts.rss",
       "feed_url": "https://community.tranzak.net/posts.rss",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "feed"
     }
   ],
-  "fetched": "2026-09-13T13:00:00Z",
+  "fetched": "2026-09-19T20:17:39Z",
   "post_count": 73,
   "feed_nature": "support-community",
   "feed_nature_basis": "discourse_topic",
