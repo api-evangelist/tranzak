@@ -56,3 +56,28 @@ notes:
   - Transaction limits may apply based on account KYC verification level
   - Sandbox environment available for testing at no cost
   - Contact support@tranzak.net or +237 233 430 888 for enterprise pricing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units: []
+  plans:
+  - name: Pay-As-You-Go Collections
+    access: other
+    model: metered
+    model_how: stated
+    units: []
+    periods: []
+  - name: Disbursements
+    access: other
+    model: metered
+    model_how: stated
+    units: []
+    periods: []
+  - name: SMS Services
+    access: other
+    model: metered
+    model_how: stated
+    units: []
+    periods: []
